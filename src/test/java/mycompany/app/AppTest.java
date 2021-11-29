@@ -28,7 +28,7 @@ public class AppTest
 	String validPassword = "password1234";
 	String invalidEmail = "none@example.com";
 	String invalidPassword = "password";
-
+ 
     @Before
     public void setUp() { 
 		driver = new HtmlUnitDriver(); 
